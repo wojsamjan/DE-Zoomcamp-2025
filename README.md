@@ -147,3 +147,22 @@ Using `big_query.sql`, perform:
 View the report here:  
 📊 [Looker Report](https://lookerstudio.google.com/reporting/107f5bc7-2939-4f78-9db9-3eea07a72e44)
 ![Looker Report PDF](assets/Crimes_in_Toronto.png)
+
+## Evaluation Criteria Helper for Peer Reviewers
+
+- Problem description
+  ✅ 4 points: Problem is well described and it's clear what the problem the project solves
+- Cloud
+  ✅ 4 points: The project is developed in the cloud and IaC tools are used
+- Data ingestion (choose either batch or stream)
+  ✅ Batch
+  ❌ Workflow orchestration
+- Data warehouse
+  ✅ 4 points: Tables are partitioned and clustered in a way that makes sense for the upstream queries (with explanation)
+- Transformations (dbt, spark, etc)
+  ✅ 4 points: Tranformations are defined with Spark
+- Dashboard
+  ✅ 4 points: A dashboard with 2 tiles
+- Reproducibility
+  ⚖️ 2 points: Some instructions are there, but they are not complete
+  ⚖️ 4 points: Instructions are clear, it's easy to run the code, and the code works
