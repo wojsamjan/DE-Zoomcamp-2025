@@ -151,18 +151,18 @@ View the report here:
 ## Evaluation Criteria Helper for Peer Reviewers
 
 - Problem description
-  ✅ 4 points: Problem is well described and it's clear what the problem the project solves
+  - ✅ 4 points: Problem is well described and it's clear what the problem the project solves
 - Cloud
-  ✅ 4 points: The project is developed in the cloud and IaC tools are used
+  - ✅ 4 points: The project is developed in the cloud and IaC tools are used
 - Data ingestion (choose either batch or stream)
-  ✅ Batch
-  ❌ Workflow orchestration
+  - ✅ Batch
+  - ❌ Workflow orchestration
 - Data warehouse
-  ✅ 4 points: Tables are partitioned and clustered in a way that makes sense for the upstream queries (with explanation)
+  - ✅ 4 points: Tables are partitioned and clustered in a way that makes sense for the upstream queries (with explanation)
 - Transformations (dbt, spark, etc)
-  ✅ 4 points: Tranformations are defined with Spark
+  - ✅ 4 points: Tranformations are defined with Spark
 - Dashboard
-  ✅ 4 points: A dashboard with 2 tiles
+  - ✅ 4 points: A dashboard with 2 tiles
 - Reproducibility
-  ⚖️ 2 points: Some instructions are there, but they are not complete
-  ⚖️ 4 points: Instructions are clear, it's easy to run the code, and the code works
+  - ⚖️ 2 points: Some instructions are there, but they are not complete
+  - ⚖️ 4 points: Instructions are clear, it's easy to run the code, and the code works
