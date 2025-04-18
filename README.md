@@ -1,3 +1,44 @@
+# Crimes in Toronto - Data Engineering Project for Zoomcamp 2025
+
+## Project Overview
+
+This project ingests, processes, and analyzes the **Toronto crime dataset** using a modern data engineering stack on Google Cloud Platform. You will learn how to:
+
+1. **Ingest raw data** from Google Cloud Storage
+2. **Transform and enrich** data with PySpark on Dataproc
+3. **Load** processed records into a BigQuery data warehouse
+4. **Visualize** results in Looker Studio
+
+## Dataset
+
+- **Source:** `crimes-in-toronto.csv`
+- **Contents:** Each row represents a reported crime in Toronto, with attributes such as date, location, offense type, and outcome.
+
+## Objectives
+
+- Build a reproducible **Terraform**-managed GCP infrastructure
+- Design a scalable **PySpark** pipeline for data cleaning & transformation
+- Leverage **BigQuery** for storage, partitioning, and performance tuning
+- Create interactive **Looker Studio** dashboards to explore crime trends
+
+## Tech Stack
+
+- **Infrastructure as Code:** Terraform
+- **Compute:** Google Cloud Dataproc (PySpark)
+- **Storage:** Google Cloud Storage, BigQuery
+- **Visualization:** Looker Studio
+
+## Getting Started
+
+Follow the detailed steps in this repository to:
+
+1. Create your GCP account & service credentials
+2. Provision infrastructure with Terraform
+3. Run your PySpark job on Dataproc
+4. Explore data in BigQuery & Looker Studio
+
+---
+
 ![GCP Architecture Diagram](assets/diagram.svg)
 
 # ☁️ GCP + Terraform + Dataproc Setup Guide
