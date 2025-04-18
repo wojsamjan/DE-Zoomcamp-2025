@@ -105,4 +105,4 @@ Using `big_query.sql`, perform:
 
 View the report here:  
 📊 [Looker Report](https://lookerstudio.google.com/reporting/107f5bc7-2939-4f78-9db9-3eea07a72e44)
-![Looker Report PDF](assets/Crimes_in_Toronto.pdf)
+![Looker Report PDF](assets/Crimes_in_Toronto.png)
